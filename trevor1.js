@@ -1,4 +1,9 @@
-var PrEfix = "-";
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+console.log("Welcome");
+
+var PrEfix = "tt";
 client.on('message', message => {
   if (!message.content.startsWith(PrEfix)) return;
   var args = message.content.split(' ').slice(1);
