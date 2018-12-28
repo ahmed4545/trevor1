@@ -1,3 +1,11 @@
+{
+  "name": "mohamed",
+  "version": "2.1.0",
+  "description": "-- AWESOMENESS --",
+  "main": "trevor1.js",
+  "scripts": {
+    "start": "node trevor1.js"
+  },
 "dependencies": {
     "and": "0.0.3",
     "anti-spam": "^0.2.7",
@@ -40,5 +48,8 @@
     "youtube-info": "^1.2.0",
     "ytdl-core": "^0.21.1",
     "zalgolize": "^1.2.4"
+ },
+  "engines": {
+    "node": "8.x"
   }
 }
