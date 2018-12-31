@@ -8,7 +8,7 @@ client.on('message', message => {
   if (!message.content.startsWith(PrEfix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== '528266195510755332') return;
+  if (message.author.id !== '497449510495059978') return;
 if (message.content.startsWith(PrEfix + 'wt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
     message.channel.sendMessage(`**:white_check_mark:  : ${argresult}**`)
