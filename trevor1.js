@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 console.log("Welcome");
 
-var PrEfix = "dd";
+var PrEfix = "ff";
 client.on('message', message => {
   if (!message.content.startsWith(PrEfix)) return;
   var args = message.content.split(' ').slice(1);
