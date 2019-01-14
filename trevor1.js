@@ -16,6 +16,10 @@ client.on('message', message => {
      if (message.content === (PrEfix + "leave")) {
     message.guild.leave();   
   } else  
+ if (message.content.startsWith(PrEfix + 'p')) {
+  client.user.setActivity(argresult, {type:'PLAYING'});
+      message.channel.send(`**✅   ${argresult}**`)
+  } else
   if (message.content.startsWith(PrEfix + 'w')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`**✅   ${argresult}**`)
